@@ -1,0 +1,34 @@
+###
+GET http://localhost:3000/api/productos/id_producto HTTP/1.1
+
+###
+GET http://localhost:3000/api/clientes/id_cliente HTTP/1.1
+
+
+###
+POST http://localhost:3000/api/meterClientes HTTP/1.1
+
+###
+POST http://localhost:3000/api/meterProductos HTTP/1.1
+
+###
+PUT http://localhost:3000/api/modificarProducto HTTP/1.1
+
+###
+PUT http://localhost:3000/api/modificarCliente HTTP/1.1
+
+###
+DELETE  http://localhost:3000/api/eliminarProducto/id_producto HTTP/1.1
+
+###
+DELETE http://localhost:3000/api/eliminarCliente/id_cliente HTTP/1.1
+
+
+
+
+
+
+
+
+
+
